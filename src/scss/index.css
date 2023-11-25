@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: black;
-}
 body .home-header {
   position: absolute;
   left: 0;
@@ -35,6 +32,6 @@ body header .sideicons button {
 }
 body .banner {
   padding-top: 90px;
-  height: 300px;
+  height: 500px;
   background-color: #F2F6F7;
 }/*# sourceMappingURL=index.css.map */
