@@ -1,8 +1,27 @@
+.home-header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+}
 header{
+    border-radius: 4px;
     background-color: #fff;
 
     .link{
         text-decoration: none;
         color: black;
+    }
+    .sideicons{
+        gap: 1rem;
+        a{
+            font-size: 18px;
+        }
+        button{
+            background-color: #fff;
+            border: 1px solid;
+            padding: 2px 5px;
+            border-radius: 5px;
+        }
     }
 }

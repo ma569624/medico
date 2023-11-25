@@ -1,9 +1,12 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 
 const Banner = () => {
   return (
-    <section style={{height: "300px", backgroundColor: "#F2F6F7"}}>
+    <section className='banner'>
+      <Container>
       <h1>Banner</h1>
+      </Container>
     </section>
   )
 }

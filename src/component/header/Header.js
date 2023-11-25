@@ -9,17 +9,17 @@ import { Link } from 'react-router-dom';
 import { CiUser } from "react-icons/ci";
 import { BsCart2 } from "react-icons/bs";
 import { IoSearchOutline } from "react-icons/io5";
-
+import imgsrc from './img/logo.png';
 
 
 const Header = () => {
   return (
-    <Container>
+    <Container className='home-header'>
       <header>
 
         <Navbar expand="lg" >
           <Container >
-            <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+            <Navbar.Brand href="#"><img src={imgsrc} /></Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
               <Nav
@@ -35,10 +35,10 @@ const Header = () => {
                 <Nav.Link ><Link className='link' to='/about'>About</Link></Nav.Link>
 
               </Nav>
-              <div className="d-flex">
+              <div className="d-flex sideicons">
                 <Link to='/about'><CiUser /></Link>
                 <Link to='/about'><BsCart2 /></Link>
-                <Button variant="outline-success"><IoSearchOutline /></Button>
+                <button><IoSearchOutline /></button>
               </div>
             </Navbar.Collapse>
           </Container>

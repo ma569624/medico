@@ -7,10 +7,34 @@
 body {
   background-color: black;
 }
+body .home-header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20px;
+}
 body header {
+  border-radius: 4px;
   background-color: #fff;
 }
 body header .link {
   text-decoration: none;
   color: black;
+}
+body header .sideicons {
+  gap: 1rem;
+}
+body header .sideicons a {
+  font-size: 18px;
+}
+body header .sideicons button {
+  background-color: #fff;
+  border: 1px solid;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+body .banner {
+  padding-top: 90px;
+  height: 300px;
+  background-color: #F2F6F7;
 }/*# sourceMappingURL=index.css.map */
