@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+body header {
+  background-color: #fff;
+}
+body header .link {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=index.css.map */
