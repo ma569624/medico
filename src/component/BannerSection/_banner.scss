@@ -2,4 +2,53 @@
     padding-top: 90px;
     height: 500px; 
     background-color: #F2F6F7;
+
+    aside{
+        margin: auto;
+        padding-left: 20px;
+
+        span{
+            font-size: 14px;
+            font-weight: 500;
+            background-color: #fff;
+            padding: 5px 10px;
+           
+            border-radius: 5px;
+        }
+
+        h2{
+            margin-bottom: 20px;
+            margin-top: 10px;
+            font-size: 48px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 16px;
+            color: #b3abab;
+        }
+        button{
+            margin-top: 15px;
+            padding: 10px 30px;
+            background-color: #0A9972;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 16px;
+            border: none;
+            border-radius: 4px;
+        }
+    }
+    article{
+        position: relative;
+        span{
+            position: absolute;
+            bottom: 45px;
+            
+            background-color: #0A9972;
+            color: #fff;
+            padding: 15px;
+            font-size: 28px;
+            border-radius: 50%;
+
+        }
+    }
 }
